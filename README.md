@@ -1,6 +1,6 @@
 #### setup ####
 download files then  use your terminal and rum npm i  
-when it is done  write npm start  so code will automaticlly will run on your browser
+when it is done  write npm start  so code will automatically will run on your browser
 
 
 
