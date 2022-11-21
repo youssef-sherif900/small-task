@@ -1,3 +1,11 @@
+#### setup ####
+download files then  use your terminal and rum npm i  
+when it is done  write npm start  so code will automaticlly will run on your browser
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
