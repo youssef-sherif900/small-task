@@ -1,0 +1,80 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  background-color: #F2DEBA;
+  transition-delay: 2.3s;
+ 
+}
+
+.App-logo {
+  position: relative;
+  top: 25vh;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.window{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  transition: 1s;
+  
+}
+
+#secondSection{
+  position: relative;
+  top: -100vh;
+  opacity: 0;
+  z-index: 1;
+  transition: 1s;
+  justify-items: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+ 
+  .App-logo {
+    animation: App-logo-spin  2s ease-in;
+
+  }
+  
+}
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  0% {
+    transform: translateY(-50vh);
+ 
+  }
+  75% {
+    transform: rotate(0deg);
+   
+    
+  } 
+
+100%{
+  transform: rotate(360deg);
+}
+  
+}
+
+
+.sideImg{
+  display: flex;
+  margin: 0 30%;
+  justify-content:space-around;
+  align-items: center;
+ 
+}
+.bigContainer{
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.card{
+  padding: 0 20px;
+}
